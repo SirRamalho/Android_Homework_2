@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_Activity">
+
+    <EditText
+        android:id="@+id/taskTitle"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/taskDescription"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="50dp" />
+
+    <EditText
+        android:id="@+id/taskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_above="@+id/taskAge"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="50dp" />
+
+    <EditText
+        android:id="@+id/taskAge"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_above="@+id/addTopic"
+        android:layout_marginBottom="50dp" />
+
+    <Button
+        android:id="@+id/addTopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="74dp"
+        android:text="@string/addTask" />
+
+
+</RelativeLayout>
